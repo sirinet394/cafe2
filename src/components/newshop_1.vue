@@ -21,9 +21,9 @@
 import { ref } from 'vue';
 
 const travelList=ref([
-   {name: 'สุนทรารมณ์',  price:500, img:"https://media.discordapp.net/attachments/1153766321666932836/1153887346882773063/1.jpg?width=701&height=701", quantity: 0 ,
-    text_box:'สัมผัสความเป็นมหานครของรสชาติ'
-    }])
+{name: 'ร้านThaKham Café  ',  price:200, img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ17Qtle-01UUe_gsI-0VKVi4KaXqXM_FotcQ&usqp=CAU", quantity: 0 ,
+        text_box:'ร้านเปิดทุกวัน08.00 – 20.00 น. '
+        }])
 
 
 </script>
