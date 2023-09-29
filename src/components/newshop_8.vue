@@ -21,9 +21,9 @@
 import { ref } from 'vue';
 
 const travelList=ref([
-    {name:'Warm up',     price:1250, img:"https://cdn.discordapp.com/attachments/1153766321666932836/1153887346635317259/8.jpg", quantity: 0 ,
-    text_box:'จุดเริ่มต้นของความอบอุ่นและความสนุกสนาน'
-    },])
+{name:'ร้านMao Coffee',     price:200, img:"https://travelalotthailand.files.wordpress.com/2017/11/cover9.jpg", quantity: 0 ,
+        text_box:'ร้านเปิด07.00น.-18.00น.'
+        },])
 
 
 </script>
