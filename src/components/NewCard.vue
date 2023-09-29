@@ -36,38 +36,37 @@
     
     
     
-    //variable drinking
-    const travelList=ref([
-       {name: 'สุนทรารมณ์',  price:500, img:"https://media.discordapp.net/attachments/1153766321666932836/1153887346882773063/1.jpg?width=701&height=701", quantity: 0 ,
-        text_box:' Let enjoy Food&Drink สุนทรารมณ์ ยินดีให้บริการ'
+   const travelList=ref([
+       {name: 'ร้านThaKham Café  ',  price:200, img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ17Qtle-01UUe_gsI-0VKVi4KaXqXM_FotcQ&usqp=CAU", quantity: 0 ,
+        text_box:'ร้านเปิดทุกวัน08.00 – 20.00 น. '
         }, 
     
-      {name:'86s room',  price:750, img:"https://www.thai2night.com/upload/shop/photo/_temp/shop_shop_photo_7662_1617199748.jpg", quantity: 0 ,
-        text_box:' Overnight Bar Maejo โอเวอร์ไนท์บาร์แม่โจ ร้านย่านแม่โจ้ เชียงใหม่ มาดื่มด่ำบรรยากาศแสนชิว พร้อมเครื่องดื่ม และอาหารราคาสบายกระเป๋า มีดนตรีสดและดีเจทุกวัน'
+      {name:'ร้าน Tham ma da  (ไม่) ธรรมดา',  price:200, img:"https://www.lookbook.in.th/wp-content/uploads/2017/06/IMG_3578-copy-1050x700.jpg", quantity: 0 ,
+        text_box:'ร้านเปิดบริการทุกวัน (เว้นวันจันทร์) วันอังคาร และ วันอาทิตย์ เวลา 11.00 น. -17.00 น. วันพุธ – เสาร์ เวลา11.00 น. -19.00'
         },
       
-      {name:'Tamma Cafe',      price:1500, img:"https://media.discordapp.net/attachments/1153766321666932836/1153887347407077456/3.jpg?width=701&height=701", quantity: 0 ,
-        text_box:' ตามมา คาเฟ่ ร้านของคนเก๋ คนเท่  อย่างมีสไตล์ 😎หาร้านนั่งชิลบรรยากาศดี มีดนตรีสดทั้งคืน แวะมาได้เลย ตามมา คาเฟ่ 🐵เปิดให้บริการทุกวัน'
+      {name:'ร้านHazel’s Ice Cream Parlor and Fine Drinks',      price:200, img:"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR-Z-s72uZLcl7b3Xba1u1-gdMiooKQubZRMZhNK3HrPXK7oVbH", quantity: 0 ,
+        text_box:'ร้านเปิด9.00น.-16.00น.'
         },
     
-      {name:'Yoh',     price:1599, img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH6wXFQGOMI8Qj69sfRTrxoJDDusj9-yGt6Q&usqp=CAU", quantity: 0 ,
-        text_box:' ร้านไป-ยานใหญ่ อาหารอร่อย สะอาด ถูก ดนตรีไพเราะ บอลจอใหญ่ สังสรรค์ราคาประหยัด⚽⚽'
+      {name:'ร้านFlock Dessert Bar & Bistro',     price:200, img:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTWF3PP9LCPfcR3LEDV8h4We-Y66zv1B-69Mx7uMYzbMQS-C2RK", quantity: 0 ,
+        text_box:'ร้านเปิด8.00น.-18.00น.'
         },
     
-      {name:'East Bar',    price:1699, img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxGhm5_2QFPl3ik7MxvrYTqxpyQ829rV6fw&usqp=CAU", quantity: 0 ,
-        text_box:' Too Nice Nimman Enjoy our special drinks, good foods, good vibesand everyday live band at Too Nice'
+      {name:'ร้านTAAN Organic Café',    price:200, img:"https://readthecloud.co/wp-content/uploads/2017/06/living-cafe-taan-4.jpg", quantity: 0 ,
+        text_box:'ร้านเปิด8.00น.-18.00น.'
         },
     
-      {name:'ท่าช้าง คาเฟ่',  price:1890,  img:"https://cdn.discordapp.com/attachments/1153766321666932836/1153887348094943232/6.jpg", quantity: 0 ,
-        text_box:' บาร์สุดคึกคักที่เสิร์ฟเครื่องดื่มและอาหารนานาชาติแบบง่ายๆ ในพื้นที่สไตล์โกดังพร้อมที่นั่งในสวน'
+      {name:'ร้านSeven',  price:200,  img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgxsnJ_2bepqgEFfMTNGF6TDypoXNg4b-W65anSpun8SkyIDvF", quantity: 0 ,
+        text_box:'ร้านเปิดบริการทุกวัน (เว้นวันอังคาร) เวลา 10.00 น. – 18.00 น.'
         },
     
-      {name:'Beer lab',      price:675, img:"https://cdn.discordapp.com/attachments/1153766321666932836/1153887348321419314/7.jpg", quantity: 0 ,
-        text_box:' We have over 250 beers from around the world and 18 beers on tap. The largest selection in Northern T'
+      {name:'ร้านMoon cafe and entery',      price:200, img:"https://img.wongnai.com/p/400x0/2020/03/09/8c777aa77ef6497aade2cf90853d8b7a.jpg", quantity: 0 ,
+        text_box:'ร้านเปิด07:00 - 16:00 น.'
         },
     
-      {name:'Warm up',     price:1250, img:"https://cdn.discordapp.com/attachments/1153766321666932836/1153887346635317259/8.jpg", quantity: 0 ,
-        text_box:' บาร์และสถานบันเทิงแห่งนี้มีพื้นที่หลากหลายสไตล์ให้ได้เพลิดเพลินกับดีเจที่เปิดเพลง EDM และดนตรีสด'
+      {name:'ร้านMao Coffee',     price:200, img:"https://travelalotthailand.files.wordpress.com/2017/11/cover9.jpg", quantity: 0 ,
+        text_box:'ร้านเปิด07.00น.-18.00น.'
         },
     ])
     
