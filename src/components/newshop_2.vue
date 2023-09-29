@@ -21,9 +21,9 @@
 import { ref } from 'vue';
 
 const travelList=ref([
-    {name:'86s room',  price:750, img:"https://www.thai2night.com/upload/shop/photo/_temp/shop_shop_photo_7662_1617199748.jpg", quantity: 0 ,
-    text_box:'เม็ดเล็กของความสุข, ในห้องนี้ทุกสิ่งเป็นเรื่องใหญ่'
-    }])
+{name:'ร้าน Tham ma da  (ไม่) ธรรมดา',  price:200, img:"https://www.lookbook.in.th/wp-content/uploads/2017/06/IMG_3578-copy-1050x700.jpg", quantity: 0 ,
+        text_box:'ร้านเปิดบริการทุกวัน (เว้นวันจันทร์) วันอังคาร และ วันอาทิตย์ เวลา 11.00 น. -17.00 น. วันพุธ – เสาร์ เวลา11.00 น. -19.00'
+        }])
 
 </script>
 
