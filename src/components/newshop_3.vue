@@ -21,9 +21,9 @@
 import { ref } from 'vue';
 
 const travelList=ref([
-    {name:'Tamma Cafe',      price:1500, img:"https://media.discordapp.net/attachments/1153766321666932836/1153887347407077456/3.jpg?width=701&height=701", quantity: 0 ,
-    text_box:'กระแสความอบอุ่น และกลิ่นหอมของความเป็นธรรมชาติ'
-    },])
+{name:'ร้านHazel’s Ice Cream Parlor and Fine Drinks',      price:200, img:"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR-Z-s72uZLcl7b3Xba1u1-gdMiooKQubZRMZhNK3HrPXK7oVbH", quantity: 0 ,
+        text_box:'ร้านเปิด9.00น.-16.00น.'
+        },])
 
 
 </script>
