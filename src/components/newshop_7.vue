@@ -21,10 +21,9 @@
 import { ref } from 'vue';
 
 const travelList=ref([
-    {name:'Beer lab', price:675, img:"https://cdn.discordapp.com/attachments/1153766321666932836/1153887348321419314/7.jpg", quantity: 0 ,
-    text_box:'ที่นี่เราไม่แค่ดื่มเบียร์ แต่เราสร้างเบียร์'
-    },])
-
+{name:'ร้านMoon cafe and entery',      price:200, img:"https://img.wongnai.com/p/400x0/2020/03/09/8c777aa77ef6497aade2cf90853d8b7a.jpg", quantity: 0 ,
+        text_box:'ร้านเปิด07:00 - 16:00 น.'
+        },])
 
 </script>
 
