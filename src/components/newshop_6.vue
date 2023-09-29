@@ -21,9 +21,9 @@
 import { ref } from 'vue';
 
 const travelList=ref([
-    {name:'ท่าช้าง คาเฟ่', price:1890,  img:"https://cdn.discordapp.com/attachments/1153766321666932836/1153887348094943232/6.jpg", quantity: 0 ,
-    text_box:'สร้างความสุขในทุกช่วงเวลา เหมือนคลื่นล่องเหมือนใจ'
-    },])
+{name:'ร้านSeven',  price:200,  img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgxsnJ_2bepqgEFfMTNGF6TDypoXNg4b-W65anSpun8SkyIDvF", quantity: 0 ,
+        text_box:'ร้านเปิดบริการทุกวัน (เว้นวันอังคาร) เวลา 10.00 น. – 18.00 น.'
+        },])
 
 
 </script>
