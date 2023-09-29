@@ -21,10 +21,9 @@
 import { ref } from 'vue';
 
 const travelList=ref([
-    {name:'Yoh',     price:1599, img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH6wXFQGOMI8Qj69sfRTrxoJDDusj9-yGt6Q&usqp=CAU", quantity: 0 ,
-    text_box:'รสชาติที่อยู่ในระดับพรีเมียม ลดลงในแต่ละทั้งช็อต'
-    },])
-
+{name:'ร้านFlock Dessert Bar & Bistro',     price:200, img:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTWF3PP9LCPfcR3LEDV8h4We-Y66zv1B-69Mx7uMYzbMQS-C2RK", quantity: 0 ,
+        text_box:'ร้านเปิด8.00น.-18.00น.'
+        },])
 
 </script>
 
