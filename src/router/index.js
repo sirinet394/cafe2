@@ -14,14 +14,14 @@ import newshop_8 from '../components/newshop_8.vue';
 
 
 const shopRoutes = [
-  { name: 'news_1', component: newshop_1, shop: 'สุนทรารมณ์' },
-  { name: 'news_2', component: newshop_2, shop: '86s room' },
-  { name: 'news_3', component: newshop_3, shop: 'Tamma Cafe'},
-  { name: 'news_4', component: newshop_4, shop: 'Yoh'},
-  { name: 'news_5', component: newshop_5, shop: 'East Bar'},
-  { name: 'news_6', component: newshop_6, shop: 'ท่าช้าง คาเฟ่'},
-  { name: 'news_7', component: newshop_7, shop: 'Beer lab'},
-  { name: 'news_8', component: newshop_8, shop: 'Warmup Cafe'},
+  { name: 'news_1', component: newshop_1, shop: 'ร้านThaKham Café' },
+  { name: 'news_2', component: newshop_2, shop: 'ร้าน Tham ma da  (ไม่) ธรรมดา' },
+  { name: 'news_3', component: newshop_3, shop: 'ร้านHazel’s Ice Cream Parlor and Fine Drinks'},
+  { name: 'news_4', component: newshop_4, shop: 'ร้านFlock Dessert Bar & Bistro'},
+  { name: 'news_5', component: newshop_5, shop: 'ร้านTAAN Organic Café'},
+  { name: 'news_6', component: newshop_6, shop: 'ร้านSeven'},
+  { name: 'news_7', component: newshop_7, shop: 'ร้านMoon cafe and entery'},
+  { name: 'news_8', component: newshop_8, shop: 'ร้านMao Coffee'},
 ];
 
 const routes = [
