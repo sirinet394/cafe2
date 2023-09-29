@@ -21,9 +21,9 @@
 import { ref } from 'vue';
 
 const travelList=ref([
-    {name:'East Bar',    price:1699, img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxGhm5_2QFPl3ik7MxvrYTqxpyQ829rV6fw&usqp=CAU", quantity: 0 ,
-    text_box:'ใต้แสงเมืองใหญ่ นำเสนอบรรยากาศที่สมบูรณ์แบบของตะวันออก'
-    },])
+{name:'ร้านTAAN Organic Café',    price:200, img:"https://readthecloud.co/wp-content/uploads/2017/06/living-cafe-taan-4.jpg", quantity: 0 ,
+        text_box:'ร้านเปิด8.00น.-18.00น.'
+        },])
 
 
 </script>
